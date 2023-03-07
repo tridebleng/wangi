@@ -724,6 +724,7 @@ wget -q -O menu "https://raw.githubusercontent.com/tridebleng/wangi/main/menu.sh
 wget -q -O xp "https://raw.githubusercontent.com/tridebleng/wangi/main/xp.sh"
 wget -q -O bckp "https://raw.githubusercontent.com/tridebleng/wangi/main/bckp.sh"
 wget -q -O running "https://raw.githubusercontent.com/tridebleng/wangi/main/running.sh"
+wget -q -O jam "https://raw.githubusercontent.com/tridebleng/wangi/main/jam.sh"
 chmod +x bckp
 chmod +x add-ws
 chmod +x add-ssws
@@ -742,6 +743,7 @@ chmod +x menu-bckp
 chmod +x menu
 chmod +x xp
 chmod +x running
+chmod +x jam
 cd
 cat > /etc/cron.d/re_otm <<-END
 SHELL=/bin/sh
