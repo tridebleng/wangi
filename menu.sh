@@ -226,7 +226,7 @@ echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu
 echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}07${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
 echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST      ${NC}" "${BICyan}     │"
 echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}09${BICyan}] GEN SSL             │"
-echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SS WS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}69${BICyan}] XOL BOT   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
+echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SS WS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}10${BICyan}] SET REBOOT${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC  ${BICyan}KEMARIN${NC}: ${red}$tyest$NC  ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
@@ -253,6 +253,7 @@ case $opt in
 7) clear ; menu-bckp ;;
 8) clear ; addhost ;;
 9) clear ; genssl ;;
+10) clear ; jam ;;
 6969) clear ; wget https://raw.githubusercontent.com/tridebleng/wangi/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
 x) exit ;;
